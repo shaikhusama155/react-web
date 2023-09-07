@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './component/Navbar';
-import Slider from './component/Slider';
-import  Image  from './component/img/1.jpg';
-import  Image1  from './component/img/2.avif';
-import  Image2  from './component/img/3.avif';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./component/Navbar";
+import Slider from "./component/Slider";
+import Cards from "./component/Cards";
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     <Slider/>
+      <Navbar />
+      <Slider />
+      <br />
+      <br />
+      <Cards/>
     </div>
   );
 }
